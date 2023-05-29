@@ -1,0 +1,20 @@
+h1 {
+    color: mediumseagreen;
+    text-align: left;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.card{
+margin-left:410px;
+margin-top: 20px;
+color: white;
+}
+.container{
+font-weight: bold;
+padding-bottom:10px;
+border-radius: 15px;
+}
