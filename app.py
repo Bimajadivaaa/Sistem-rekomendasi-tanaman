@@ -28,13 +28,13 @@ def predict():
     single_prediksi = np.array(data).reshape(1, -1)
 
     prediksi = model.predict(single_prediksi)
-    tanaman_dict = {1: "Padi", 2: "Jagung", 3: "Serat", 4: "Kapas", 5: "Kelapa", 6: "Pepaya", 7: "Jeruk",
-                    8: "Apel", 9: "Semangka", 10: "Melon", 11: "Anggur", 12: "Mangga", 13: "Pisang",
-                    14: "Delima", 15: "Kacang Lentil", 16: "Kacang Hitam", 17: "Kacang Hijau", 18: "Kacang Ngokilo",
-                    19: "Kacang Kuda", 20: "Kacang Merah", 21: "Kacang Arab", 22: "Kopi"}
+    tanaman_list = ["Padi", "Jagung", "Serat", "Kapas", "Kelapa", "Pepaya", "Jeruk",
+                "Apel", "Semangka", "Melon", "Anggur", "Mangga", "Pisang",
+                "Delima", "Kacang Lentil", "Kacang Hitam", "Kacang Hijau", "Kacang Ngokilo",
+                "Kacang Kuda", "Kacang Merah", "Kacang Arab", "Kopi"]
 
-    if prediksi[0] in tanaman_dict:
-        tanaman_rekomendasi = tanaman_dict[prediksi[0]]
+    if prediksi[0] < len(tanaman_list):
+        tanaman_rekomendasi = tanaman_list[prediksi[0]]
         result = "{} adalah tanaman yang sangat cocok ditanam di daerah dengan kondisi tersebut.".format(
             tanaman_rekomendasi)
     else:
