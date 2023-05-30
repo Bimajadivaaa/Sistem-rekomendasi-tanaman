@@ -3,16 +3,16 @@ TUGAS AKHIR MATA KULIAH AI - Sistem Rekomendasi Tanaman
 
 How To Run
 
-1. Install Flask
+1.
 pip install flask
 
-2. Install numpy
+2.
 pip install numpy 
 
-3. Install Pandas
+3.
 pip install pandas
 
-4. Install sklearn
+4.
 pip install scikit-learn
 
 Run Python file (app.py)
