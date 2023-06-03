@@ -1,1 +1,7 @@
-st
+nitrogen = request.form['Nitrogen']
+    fosfor = request.form['Fosfor']
+    kalium = request.form['Kalium']
+    temperatur = request.form['Temperatur']
+    kelembaban = request.form['Kelembaban']
+    pH = request.form['pH']
+    curah_hujan = request.form['Curah_hujan']
