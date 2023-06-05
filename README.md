@@ -44,9 +44,10 @@ python -u "c:\Users\Asus\Documents\Sistem Prediksi Tanaman\app.py"
 ## Sekian Dan Terimakasih
 ---
 # Kelompok 3 Mata Kuliah Kecerdasan Buatan
-**- Oktavianus Bima Jadiva (71210786)**
-**- Neiko Bagus Wardiansyah (71210778)**
-**- Andreas Sibua (71210781)**
+- Oktavianus Bima Jadiva (71210786)
+- Neiko Bagus Wardiansyah (71210778)
+- Andreas Sibua (71210781)
+
 
 
 
