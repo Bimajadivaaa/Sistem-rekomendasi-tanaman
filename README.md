@@ -4,7 +4,7 @@
 ## Powered by :
 ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) ![Flask Logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg) 
 ## Features
-- Generate Tanaman Rekomendasi yang cocok untuk ditanam
+- Generate Rekomendasi Tanaman yang cocok untuk ditanam. 
 
 ## Tech
 - [Machine Learning]() -  Predicting the Future with Machine Learning
